@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ss:
+    restart: always
+    user: root
+    image:  registry.cn-hangzhou.aliyuncs.com/home-pod/kcp-ss:2.0.0
+    container_name: ss
+    network_mode: host
